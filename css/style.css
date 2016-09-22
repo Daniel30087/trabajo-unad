@@ -1,0 +1,127 @@
+* {
+	margin:0;
+	padding:0;
+	outline:0;
+	bottom:0;
+}
+body {
+	font:12px/18px Arial, sans-serif;
+	text-align:left;
+	color:#fff;
+	background:#fff repeat-x 0 0;
+}
+a {
+	color:#fff;
+	text-decoration:underline;
+	cursor:pointer;
+}
+a:hover {
+	text-decoration:none;
+}
+a img {
+	border:0;
+}
+.ar {
+	display:block;
+	text-align:right;
+}
+.ac {
+	display:block;
+	text-align:center;
+}
+.al {
+	display:block;
+	text-align:left;
+}
+/*.cl {
+	clear:both;
+	height:0;
+	font-size:0;
+	line-height:0;
+	text-indent:-40px;
+}*/
+.shell {
+	margin:0 auto;
+	width:962px;
+}
+#header {
+	height:67px;
+	background:url(images/header.jpg) repeat-x;
+}
+
+
+
+#nav ul {/*configuracion de menu */
+	list-style-type:none;
+	height:67px;
+	float:right;
+	margin-left:0;
+	padding-left:1px;
+}
+#nav li {/*configuracion de menu */
+	float:left;
+	height:67px;
+	width:111px;
+	text-align:center;
+}
+#nav li a {/*configuracion de menu */
+	float:left;
+	width:109px;
+	margin-right:2px;
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+	height:47px;
+	padding-top:20px;
+	text-decoration:none;
+}
+.slider {/*configuracion imagen azul de fondo */
+	width:962px;
+	height:385px;
+	background:url(images/slide.jpg) no-repeat 0 34px;
+        }
+.slider .image {/* posicion de la imagen de la unad*/
+	float:left;
+	width:330px;
+	text-align:center;
+}
+.slider .info {/*  */
+	float:left;
+	width:500px;
+	padding-top:70px;
+	height:315px;
+	position:relative;
+	z-index:1;
+}
+#content {
+	background:#ff5900;/* color y tamaño del contenido de la parte inferior*/
+	padding-top:40px;
+	padding-bottom:120px;
+}
+.triple li {
+	float:left;
+	display:inline;
+	width:300px;
+	min-height:185px;
+	margin-right:31px;
+}
+.triple li.last {
+	margin-right:0;
+}
+.triple li li { /* configuracion de imagenes y texto */
+	min-height:23px;
+	line-height:26px;
+	padding-left:10px;
+	width:280px;
+	margin-right:0;
+}
+footer {
+            position: relative;
+            margin-top: -50px;
+            height: 40px;
+            padding:5px 0px;
+            clear: both;
+            background: #2B2929;
+            text-align: center;
+            color: #fff;
+        }
